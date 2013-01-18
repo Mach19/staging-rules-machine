@@ -85,6 +85,11 @@ function CreateAllRuleConditionSelect(select_id) {
   combined_array = COMPARISON_CONDITION_TYPES.concat(JOIN_CONDITION_TYPES);
   return CreateConditionSelect(combined_array, select_id, "rule_condition_type");
 }
+// Experiment with Validation
+// function ValidateComparisonRuleConditionsSelect() {
+
+
+// }
 
 function CreateComparisonRuleConditionSelect(select_id) {
   return CreateConditionSelect(COMPARISON_CONDITION_TYPES, select_id, "comparison_rule_condition_type").prepend("<option value=''>please select one...</option>");
@@ -334,7 +339,7 @@ function RuleWizardNext() {
     return false;
   }
 
-  else if ($('.then_send_to').val() == 0 && (panel_index == 2)) {
+    else if ($('.then_send_to').val() == 0 && (panel_index == 2)) {
     alert('Please enter a valid phone#, email, or url -OR- Remove this option');
     return false;
   }
@@ -343,16 +348,6 @@ function RuleWizardNext() {
     alert('Please enter a valid phone#, email, or url -OR- Remove this option');
     return false;
   }
-
-  // else if ($('.then_type').val() == 'email_rule_action' && (panel_index == 2)) {
-  //   alert('Please enter an email address using correct format (name@domain.com) -OR- Remove this action');
-  //   return false;
-  // }
-
-  // else if ($('#else_action_type_2').val() == 'email_rule_action' && ($('#else_action_send_to_2').val() == 0)) {
-  //   alert('Please enter an email address using correct format (name@domain.com)');
-  //   return false;
-  // }
 
   else {
     switch(panel_index){
@@ -548,6 +543,17 @@ function Rule(){
   return rule;
 }
 
+// function ValidateForm(){
+//   if($('#description').val() == 0) {
+//     alert('You must provide a description');
+//     return false;
+//   }
+//     else {
+//       'RuleWizardNext()';
+//   }
+// }
+
+
 ////////////////////////////////////////
 
 $(document).ready(function(){
@@ -571,5 +577,5 @@ $(document).ready(function(){
 
   CreateThenAction();
   CreateElseAction();
-
+  // ValidateForm();
 });
