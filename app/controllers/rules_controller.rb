@@ -19,19 +19,28 @@ class RulesController < ApplicationController
   def new
     #call GET/device_instance endpoint
     @device_instances = get_device_instances
-    @device_ids = []
-    @device_ids_all = []
+    puts "################ #{@device_instances.count}"
+    device_ids = []
     @device_device_instances = {}
+
     @device_instances.each do |di|
-      @device_ids_all << di[:device_id]
-      @device_device_instances[di[:device_id]] = di[:_id]
+      device_ids << di[:device_id]
+      if @device_device_instances[di[:device_id]]
+        @device_device_instances[di[:device_id]] = ""
+        @device_device_instances[di[:device_id]] = [] << di[:_id]
+        puts"################ #{@device_device_instances[di[:device_id]]}"
+      else
+        @device_device_instances[di[:device_id]] = di[:_id]
+        puts"################## instance #{di[:_id]} #{di[:name]} belongs to device #{di[:device_id]}"
+        puts"################ #{@device_device_instances[di[:device_id]]}"
+      end
     end
-    @device_ids = @device_ids_all.uniq if @device_ids_all.length > 0
+    #device_ids = device_ids.uniq if device_ids.length > 0
     @device_device_instances = @device_device_instances.to_json
 
     #call GET/device endpoint
     @devices = []
-    @device_ids.each do |id|
+    device_ids.each do |id|
       @devices << get_device(id)
     end
 

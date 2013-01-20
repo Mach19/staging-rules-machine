@@ -1,4 +1,5 @@
 .profile_container
+
   = form_tag(rules_path, :method => 'post') do
 
     %div#rule_basics
@@ -37,7 +38,7 @@
         .form_field
           %select#device_instance_ids
             - @device_instances.each do |di|
-              %option{:value => di[:id]}
+              %option{:value => di[:_id]}
                 = di[:name]
       %div
         .form_label
