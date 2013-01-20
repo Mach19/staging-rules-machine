@@ -19,7 +19,6 @@ class RulesController < ApplicationController
   def new
     #call GET/device_instance endpoint
     @device_instances = get_device_instances
-    puts "################ #{@device_instances.count}"
     device_ids = []
     @device_device_instances = {}
 
@@ -28,11 +27,8 @@ class RulesController < ApplicationController
       if @device_device_instances[di[:device_id]]
         @device_device_instances[di[:device_id]]
         @device_device_instances[di[:device_id]] << di[:_id]
-        puts"################ #{@device_device_instances}"
       else
         @device_device_instances[di[:device_id]] = [di[:_id]]
-        puts"################## instance #{di[:_id]} #{di[:name]} belongs to device #{di[:device_id]}"
-        puts"################ #{@device_device_instances[di[:device_id]]}"
       end
     end
     device_ids = device_ids.uniq if device_ids.length > 0
