@@ -26,16 +26,16 @@ class RulesController < ApplicationController
     @device_instances.each do |di|
       device_ids << di[:device_id]
       if @device_device_instances[di[:device_id]]
-        @device_device_instances[di[:device_id]] = ""
-        @device_device_instances[di[:device_id]] = [] << di[:_id]
-        puts"################ #{@device_device_instances[di[:device_id]]}"
+        @device_device_instances[di[:device_id]]
+        @device_device_instances[di[:device_id]] << di[:_id]
+        puts"################ #{@device_device_instances}"
       else
-        @device_device_instances[di[:device_id]] = di[:_id]
+        @device_device_instances[di[:device_id]] = [di[:_id]]
         puts"################## instance #{di[:_id]} #{di[:name]} belongs to device #{di[:device_id]}"
         puts"################ #{@device_device_instances[di[:device_id]]}"
       end
     end
-    #device_ids = device_ids.uniq if device_ids.length > 0
+    device_ids = device_ids.uniq if device_ids.length > 0
     @device_device_instances = @device_device_instances.to_json
 
     #call GET/device endpoint

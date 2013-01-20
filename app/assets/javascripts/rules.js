@@ -147,11 +147,13 @@ function CreateRuleConditionDiv(condition_type, device_id){
       operator = " is less than or equal to ";
       operator_set = true;
     }
-    //create an attribute dropdown
 
+    //create an attribute dropdown
     html = $(html).append(CreateRuleConditionAttributeSelect(device_id, id + "_property", "property"));
+
     //add the operator
     html = $(html).append(Line(operator));
+
     //create a textbox for the comparison value
     html = $(html).append(CreateSimpleComparisonTextBox(id + "_value", "value"));
     break;
@@ -218,7 +220,6 @@ function CreateSubconditionDiv(condition_type, device_id){
 }
 
 function CreateSubcondition(condition_type_selector_id, device_id){
-
   condition_type = $("#" + condition_type_selector_id).val();
   $('.subcondition_adder').remove();
   $("#condition_attributes").append(CreateSubconditionDiv(condition_type, device_id));
@@ -300,7 +301,6 @@ function IsJoinCondition(test_value){
 }
 
 function RuleWizardNext() {
-
   if($('#description').val() == 0) {
     alert('Please provide a description');
     return false;
@@ -309,6 +309,7 @@ function RuleWizardNext() {
     alert('Please select and add a subcondition');
     return false;
   }
+
   else if ($('.value').val() == 0) {
     alert('Please enter a value');
     return false;
