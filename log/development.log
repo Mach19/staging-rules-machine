@@ -34105,3 +34105,328 @@ Served asset /application.js - 304 Not Modified (36ms)
 
 Started GET "/assets/logo.png" for 127.0.0.1 at 2013-01-22 17:23:07 -0700
 Served asset /logo.png - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-01-22 17:57:04 -0700
+Connecting to database specified by database.yml
+Processing by RulesController#index as HTML
+  Rendered rules/index.html.haml within layouts/application (8.7ms)
+Compiled rules.js  (0ms)  (pid 6259)
+Compiled application.js  (7ms)  (pid 6259)
+Completed 200 OK in 545ms (Views: 140.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/twitter-bootstrap-static/fontawesome.css?body=1" for 127.0.0.1 at 2013-01-22 17:57:05 -0700
+Served asset /twitter-bootstrap-static/fontawesome.css - 200 OK (3ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-01-22 17:57:05 -0700
+Served asset /application.css - 304 Not Modified (12ms)
+
+
+Started GET "/assets/bootstrap_and_overrides.css?body=1" for 127.0.0.1 at 2013-01-22 17:57:05 -0700
+Served asset /bootstrap_and_overrides.css - 304 Not Modified (6ms)
+
+
+Started GET "/assets/twitter-bootstrap-static/bootstrap.css?body=1" for 127.0.0.1 at 2013-01-22 17:57:05 -0700
+Served asset /twitter-bootstrap-static/bootstrap.css - 304 Not Modified (32ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-01-22 17:57:05 -0700
+Served asset /jquery.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-01-22 17:57:05 -0700
+Served asset /jquery_ujs.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-transition.js?body=1" for 127.0.0.1 at 2013-01-22 17:57:05 -0700
+Served asset /twitter/bootstrap/bootstrap-transition.js - 304 Not Modified (3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-01-22 17:57:06 -0700
+Processing by RulesController#index as HTML
+  Rendered rules/index.html.haml within layouts/application (7.0ms)
+Completed 200 OK in 477ms (Views: 20.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-01-22 17:57:06 -0700
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter-bootstrap-static/bootstrap.css?body=1" for 127.0.0.1 at 2013-01-22 17:57:06 -0700
+Served asset /twitter-bootstrap-static/bootstrap.css - 200 OK (0ms)
+
+
+Started GET "/assets/bootstrap_and_overrides.css?body=1" for 127.0.0.1 at 2013-01-22 17:57:06 -0700
+Served asset /bootstrap_and_overrides.css - 200 OK (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-01-22 17:57:06 -0700
+Served asset /jquery.js - 200 OK (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-01-22 17:57:06 -0700
+Served asset /jquery_ujs.js - 200 OK (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-transition.js?body=1" for 127.0.0.1 at 2013-01-22 17:57:06 -0700
+Served asset /twitter/bootstrap/bootstrap-transition.js - 200 OK (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-alert.js?body=1" for 127.0.0.1 at 2013-01-22 17:57:06 -0700
+Served asset /twitter/bootstrap/bootstrap-alert.js - 200 OK (4ms)
+
+
+Started GET "/assets/twitter-bootstrap-static/fontawesome.css?body=1" for 127.0.0.1 at 2013-01-22 17:57:06 -0700
+Served asset /twitter-bootstrap-static/fontawesome.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-modal.js?body=1" for 127.0.0.1 at 2013-01-22 17:57:06 -0700
+Served asset /twitter/bootstrap/bootstrap-modal.js - 200 OK (3ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-dropdown.js?body=1" for 127.0.0.1 at 2013-01-22 17:57:06 -0700
+Served asset /twitter/bootstrap/bootstrap-dropdown.js - 200 OK (4ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-scrollspy.js?body=1" for 127.0.0.1 at 2013-01-22 17:57:06 -0700
+Served asset /twitter/bootstrap/bootstrap-scrollspy.js - 200 OK (3ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-tooltip.js?body=1" for 127.0.0.1 at 2013-01-22 17:57:06 -0700
+Served asset /twitter/bootstrap/bootstrap-tooltip.js - 200 OK (4ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-tab.js?body=1" for 127.0.0.1 at 2013-01-22 17:57:06 -0700
+Served asset /twitter/bootstrap/bootstrap-tab.js - 200 OK (6ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-popover.js?body=1" for 127.0.0.1 at 2013-01-22 17:57:06 -0700
+Served asset /twitter/bootstrap/bootstrap-popover.js - 200 OK (3ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-button.js?body=1" for 127.0.0.1 at 2013-01-22 17:57:06 -0700
+Served asset /twitter/bootstrap/bootstrap-button.js - 200 OK (3ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-collapse.js?body=1" for 127.0.0.1 at 2013-01-22 17:57:06 -0700
+Served asset /twitter/bootstrap/bootstrap-collapse.js - 200 OK (7ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-carousel.js?body=1" for 127.0.0.1 at 2013-01-22 17:57:06 -0700
+Served asset /twitter/bootstrap/bootstrap-carousel.js - 200 OK (5ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-typeahead.js?body=1" for 127.0.0.1 at 2013-01-22 17:57:06 -0700
+Served asset /twitter/bootstrap/bootstrap-typeahead.js - 200 OK (7ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-affix.js?body=1" for 127.0.0.1 at 2013-01-22 17:57:06 -0700
+Served asset /twitter/bootstrap/bootstrap-affix.js - 200 OK (5ms)
+
+
+Started GET "/assets/twitter/bootstrap.js?body=1" for 127.0.0.1 at 2013-01-22 17:57:06 -0700
+Served asset /twitter/bootstrap.js - 200 OK (54ms)
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2013-01-22 17:57:06 -0700
+Served asset /bootstrap.js - 200 OK (1ms)
+
+
+Started GET "/assets/rules.js?body=1" for 127.0.0.1 at 2013-01-22 17:57:06 -0700
+Served asset /rules.js - 200 OK (1ms)
+
+
+Started GET "/assets/validation.js?body=1" for 127.0.0.1 at 2013-01-22 17:57:06 -0700
+Served asset /validation.js - 200 OK (1ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-01-22 17:57:06 -0700
+Served asset /application.js - 200 OK (23ms)
+
+
+Started GET "/assets/logo.png" for 127.0.0.1 at 2013-01-22 17:57:06 -0700
+Served asset /logo.png - 304 Not Modified (1ms)
+
+
+Started GET "/assets/remove-icon.png" for 127.0.0.1 at 2013-01-22 17:57:06 -0700
+Served asset /remove-icon.png - 304 Not Modified (2ms)
+
+
+Started GET "/rules/new" for 127.0.0.1 at 2013-01-22 17:57:09 -0700
+Processing by RulesController#new as HTML
+  Rendered rules/_form.html.haml (16.1ms)
+  Rendered rules/new.html.haml within layouts/application (22.4ms)
+Completed 200 OK in 2987ms (Views: 35.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/twitter-bootstrap-static/fontawesome.css?body=1" for 127.0.0.1 at 2013-01-22 17:57:12 -0700
+Served asset /twitter-bootstrap-static/fontawesome.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-01-22 17:57:12 -0700
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/rules.js?body=1" for 127.0.0.1 at 2013-01-22 17:57:12 -0700
+Served asset /rules.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/logo.png" for 127.0.0.1 at 2013-01-22 17:57:12 -0700
+Served asset /logo.png - 304 Not Modified (0ms)
+
+
+Started POST "/rules" for 127.0.0.1 at 2013-01-22 17:58:09 -0700
+Processing by RulesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"N5khQMH6I9ORfyIs06ANSGudtKdAUqZLENB2ziLTUqU=", "device_properties"=>"{\"509aafa8bc2a68b272000001\":[\"lat\",\"lng\",\"heading\",\"altitude\"],\"\":[],\"503fd3923112522f5a000001\":[]}", "device_device_instances"=>"{\"509aafa8bc2a68b272000001\":[\"509aafd3bc2a68b272000003\"],\"503fd3923112522f5a000001\":[\"50734b63311252636f000001\",\"506ef450311252b663000001\",\"506eed233112527953000001\",\"506472233112522d5b000001\",\"50647219311252235b000001\",\"5064720a311252185b000001\",\"506471f1311252045b000001\",\"504a426a3112528e19000001\",\"503fd3b53112523f5a000001\"]}", "join_rule_conditions"=>"[[\"A few conditions where only one needs to be true.\",\"or_rule_condition\"],[\"A few conditions that must all be true.\",\"and_rule_condition\"]]", "comparison_rule_conditions"=>"[[\"A payload value is not the same as the specified value.\",\"not_equal_rule_condition\"],[\"A coordinate specified by two payload values is within a specified radius of a fixed point.\",\"near_rule_condition\"],[\"A numeric payload value is greater than or equal to a specified threshold.\",\"greater_than_equal_rule_condition\"],[\"A payload value is the same as the specified value.\",\"equal_rule_condition\"],[\"A numeric payload value is greater than a specified threshold.\",\"greater_than_rule_condition\"],[\"A payload value is one of a specified collection.\",\"in_rule_condition\"],[\"A numeric payload value is less than a specified numeric threshold.\",\"less_than_rule_condition\"],[\"A numeric payload value is less than or equal to a specified threshold.\",\"less_than_equal_rule_condition\"],[\"A payload value is not one of a specified collection.\",\"not_in_rule_condition\"],[\"A coordinate specified by two payload values is outside a specified radius of a fixed point.\",\"not_near_rule_condition\"]]", "rule_json"=>"{ \"devices\":[\"509aafa8bc2a68b272000001\"], \"device_instances\":[], \"rule\": { \"description\": \"asdfasdf\", \"active\": \"true\", \"condition\": {\"type\":\"near_rule_condition\", \"lat_property\":\"lat\",\"lng_property\":\"lat\",\"comp_lat\":\"12\",\"comp_lng\":\"12\",\"comp_radius\":\"12\",\"comp_unit\":\"ft\"}, \"then_actions\": [  { \"type\":\"sms_rule_action\", \"send_to\":\"1234567689\", \"priority\":\"1\" }], \"else_actions\": [  { \"type\":\"sms_rule_action\", \"send_to\":\"12\", \"priority\":\"1\" }] } }", "description"=>"asdfasdf", "device_selection"=>"rule_devices"}
+Redirected to http://localhost:3000/rules
+Completed 302 Found in 1023ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/rules" for 127.0.0.1 at 2013-01-22 17:58:10 -0700
+Processing by RulesController#index as HTML
+  Rendered rules/index.html.haml within layouts/application (8.7ms)
+Completed 200 OK in 625ms (Views: 22.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-01-22 17:58:10 -0700
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/rules.js?body=1" for 127.0.0.1 at 2013-01-22 17:58:10 -0700
+Served asset /rules.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter-bootstrap-static/fontawesome.css?body=1" for 127.0.0.1 at 2013-01-22 17:58:10 -0700
+Served asset /twitter-bootstrap-static/fontawesome.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/logo.png" for 127.0.0.1 at 2013-01-22 17:58:10 -0700
+Served asset /logo.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/remove-icon.png" for 127.0.0.1 at 2013-01-22 17:58:10 -0700
+Served asset /remove-icon.png - 304 Not Modified (0ms)
+
+
+Started DELETE "/rules/50ff3523123f3a4465000028" for 127.0.0.1 at 2013-01-22 17:58:15 -0700
+Processing by RulesController#destroy as HTML
+  Parameters: {"authenticity_token"=>"N5khQMH6I9ORfyIs06ANSGudtKdAUqZLENB2ziLTUqU=", "id"=>"50ff3523123f3a4465000028"}
+Redirected to http://localhost:3000/rules
+Completed 302 Found in 308ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/rules" for 127.0.0.1 at 2013-01-22 17:58:15 -0700
+Processing by RulesController#index as HTML
+  Rendered rules/index.html.haml within layouts/application (4.6ms)
+Completed 200 OK in 345ms (Views: 18.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-01-22 17:58:15 -0700
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/rules.js?body=1" for 127.0.0.1 at 2013-01-22 17:58:15 -0700
+Served asset /rules.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter-bootstrap-static/fontawesome.css?body=1" for 127.0.0.1 at 2013-01-22 17:58:15 -0700
+Served asset /twitter-bootstrap-static/fontawesome.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/logo.png" for 127.0.0.1 at 2013-01-22 17:58:15 -0700
+Served asset /logo.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/remove-icon.png" for 127.0.0.1 at 2013-01-22 17:58:15 -0700
+Served asset /remove-icon.png - 304 Not Modified (0ms)
+
+
+Started GET "/rules/new" for 127.0.0.1 at 2013-01-22 17:58:16 -0700
+Processing by RulesController#new as HTML
+  Rendered rules/_form.html.haml (6.6ms)
+  Rendered rules/new.html.haml within layouts/application (8.3ms)
+Completed 200 OK in 2623ms (Views: 22.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/twitter-bootstrap-static/fontawesome.css?body=1" for 127.0.0.1 at 2013-01-22 17:58:19 -0700
+Served asset /twitter-bootstrap-static/fontawesome.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/rules.js?body=1" for 127.0.0.1 at 2013-01-22 17:58:19 -0700
+Served asset /rules.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-01-22 17:58:19 -0700
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/logo.png" for 127.0.0.1 at 2013-01-22 17:58:19 -0700
+Served asset /logo.png - 304 Not Modified (0ms)
+
+
+Started POST "/rules" for 127.0.0.1 at 2013-01-22 17:59:24 -0700
+Processing by RulesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"N5khQMH6I9ORfyIs06ANSGudtKdAUqZLENB2ziLTUqU=", "device_properties"=>"{\"509aafa8bc2a68b272000001\":[\"lat\",\"lng\",\"heading\",\"altitude\"],\"\":[],\"503fd3923112522f5a000001\":[]}", "device_device_instances"=>"{\"509aafa8bc2a68b272000001\":[\"509aafd3bc2a68b272000003\"],\"503fd3923112522f5a000001\":[\"50734b63311252636f000001\",\"506ef450311252b663000001\",\"506eed233112527953000001\",\"506472233112522d5b000001\",\"50647219311252235b000001\",\"5064720a311252185b000001\",\"506471f1311252045b000001\",\"504a426a3112528e19000001\",\"503fd3b53112523f5a000001\"]}", "join_rule_conditions"=>"[[\"A few conditions where only one needs to be true.\",\"or_rule_condition\"],[\"A few conditions that must all be true.\",\"and_rule_condition\"]]", "comparison_rule_conditions"=>"[[\"A payload value is not the same as the specified value.\",\"not_equal_rule_condition\"],[\"A coordinate specified by two payload values is within a specified radius of a fixed point.\",\"near_rule_condition\"],[\"A numeric payload value is greater than or equal to a specified threshold.\",\"greater_than_equal_rule_condition\"],[\"A payload value is the same as the specified value.\",\"equal_rule_condition\"],[\"A numeric payload value is greater than a specified threshold.\",\"greater_than_rule_condition\"],[\"A payload value is one of a specified collection.\",\"in_rule_condition\"],[\"A numeric payload value is less than a specified numeric threshold.\",\"less_than_rule_condition\"],[\"A numeric payload value is less than or equal to a specified threshold.\",\"less_than_equal_rule_condition\"],[\"A payload value is not one of a specified collection.\",\"not_in_rule_condition\"],[\"A coordinate specified by two payload values is outside a specified radius of a fixed point.\",\"not_near_rule_condition\"]]", "rule_json"=>"{ \"devices\":[\"509aafa8bc2a68b272000001\"], \"device_instances\":[], \"rule\": { \"description\": \"asdfasdf\", \"active\": \"true\", \"condition\": { \"type\":\"or_rule_condition\",\"rule_conditions\":[{\"type\":\"not_equal_rule_condition\", \"property\":\"lat\", \"value\":\"232\"}]}, \"then_actions\": [  { \"type\":\"sms_rule_action\", \"send_to\":\"1234567689\", \"priority\":\"1\" }], \"else_actions\": [  { \"type\":\"sms_rule_action\", \"send_to\":\"1234567898\", \"priority\":\"1\" }] } }", "description"=>"asdfasdf", "device_selection"=>"rule_devices"}
+Redirected to http://localhost:3000/rules
+Completed 302 Found in 1166ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/rules" for 127.0.0.1 at 2013-01-22 17:59:25 -0700
+Processing by RulesController#index as HTML
+  Rendered rules/index.html.haml within layouts/application (5.7ms)
+Completed 200 OK in 626ms (Views: 19.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-01-22 17:59:26 -0700
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter-bootstrap-static/fontawesome.css?body=1" for 127.0.0.1 at 2013-01-22 17:59:26 -0700
+Served asset /twitter-bootstrap-static/fontawesome.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/rules.js?body=1" for 127.0.0.1 at 2013-01-22 17:59:26 -0700
+Served asset /rules.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/logo.png" for 127.0.0.1 at 2013-01-22 17:59:26 -0700
+Served asset /logo.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/remove-icon.png" for 127.0.0.1 at 2013-01-22 17:59:26 -0700
+Served asset /remove-icon.png - 304 Not Modified (0ms)
+
+
+Started DELETE "/rules/50ff356e123f3a446500002c" for 127.0.0.1 at 2013-01-22 17:59:35 -0700
+Processing by RulesController#destroy as HTML
+  Parameters: {"authenticity_token"=>"N5khQMH6I9ORfyIs06ANSGudtKdAUqZLENB2ziLTUqU=", "id"=>"50ff356e123f3a446500002c"}
+Redirected to http://localhost:3000/rules
+Completed 302 Found in 264ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/rules" for 127.0.0.1 at 2013-01-22 17:59:36 -0700
+Processing by RulesController#index as HTML
+  Rendered rules/index.html.haml within layouts/application (4.8ms)
+Completed 200 OK in 360ms (Views: 19.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-01-22 17:59:36 -0700
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter-bootstrap-static/fontawesome.css?body=1" for 127.0.0.1 at 2013-01-22 17:59:36 -0700
+Served asset /twitter-bootstrap-static/fontawesome.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/rules.js?body=1" for 127.0.0.1 at 2013-01-22 17:59:36 -0700
+Served asset /rules.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/logo.png" for 127.0.0.1 at 2013-01-22 17:59:36 -0700
+Served asset /logo.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/remove-icon.png" for 127.0.0.1 at 2013-01-22 17:59:36 -0700
+Served asset /remove-icon.png - 304 Not Modified (0ms)

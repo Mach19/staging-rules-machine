@@ -326,7 +326,7 @@ function RuleWizardNext() {
     return false;
   }
 
-  else if ($('.lat_property').val() == 0 && (panel_index == 1)) {
+  else if ($('.comp_lat').val() == 0 && (panel_index == 1)) {
     alert('Please enter a value');
     return false;
   }
