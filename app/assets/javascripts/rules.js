@@ -312,12 +312,12 @@ function RuleWizardNext() {
 
 
   else if ($('.value').val() == 0 && (panel_index == 1)) {
-    alert('Please enter a value value');
+    alert('Please enter a value');
     return false;
   }
 
   else if ($('.value_array').val() == 0 && (panel_index == 1)) {
-    alert('Please enter a value value array');
+    alert('Please enter a value');
     return false;
   }
 
@@ -327,12 +327,12 @@ function RuleWizardNext() {
   }
 
   else if ($('.comp_lat').val() == 0 && (panel_index == 1)) {
-    alert('Please enter a value');
+    alert('Please enter a value for all fields');
     return false;
   }
 
   else if ($('.comp_long').val() == 0 && (panel_index == 1)) {
-    alert('Please enter a value');
+    alert('Please enter a value for all all fields');
     return false;
   }
 
